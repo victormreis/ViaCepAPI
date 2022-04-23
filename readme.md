@@ -9,5 +9,5 @@ O intuito do projeto é apenas de praticar conhecimentos em JS e fazer o consumo
 * JavaScript
 
 
-- [**Confira meu Projeto clicando aqui link Abaixo**](https://victormreis.github.io/ViaCepAPI/)
+
 
