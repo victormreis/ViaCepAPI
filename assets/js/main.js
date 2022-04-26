@@ -19,7 +19,7 @@ const cepValido = (cep) => cep.length == 8 && /^[0-9]+$/.test(cep);
 const pesquisarCep = async () => {
   limparFormulario();
   const cep = document.querySelector("#cep").value;
-  const url = `http://viacep.com.br/ws/${cep}/json/`;
+  const url = `https://viacep.com.br/ws/${cep}/json/`;
   if (cepValido(cep)) {
     document.querySelector("#endereco").style.background = "#f7f6fa";
     const data = await fetch(url);
